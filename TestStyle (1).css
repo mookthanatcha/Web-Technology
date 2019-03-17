@@ -1,0 +1,115 @@
+body{
+	background-color: peachpuff;
+}
+
+p{
+	text-indent: 20px;
+}
+
+#header{
+	margin-left: 60px;
+	margin-right: 60px;
+	height: 300px;
+}
+
+.tophead{
+	background-image: url("images/1.jpg");
+	z-index: -5;
+	opacity: 0.8;
+	height: 300px;
+}
+
+.tophead h1{
+	background-color: black;
+	opacity: 0.8;
+	color:white;
+	text-align: center;
+	padding: 30px;
+}
+
+
+#navbar{
+	margin-left: 60px;
+	margin-right: 60px;
+	height: 100px;
+}
+
+.topnav{
+	background-color: whitesmoke;
+}
+
+.topnav ul{
+	margin-top: 0px;
+	padding: 30PX;
+}
+
+.topnav li{
+	display: inline;
+}
+
+.topnav a:link{
+	text-align: center;
+	text-decoration: none;
+	padding:40px;
+	color: black;
+}
+
+.topnav a:hover{	
+	padding:40px;
+	color: black;
+	background-color: peachpuff;
+	border-radius: 100px;
+}
+
+.topnav a:active{	
+	padding:40px;
+	color: blue;
+	background-color: peachpuff;
+	border-radius: 100px;
+}
+
+.topnav a:visited{	
+	padding:40px;
+	color: blue;
+	background-color: snow;
+	border-radius: 100px;
+}
+
+
+
+.leftcolumn{
+	float: left;
+	width: 60%;
+	
+}
+
+#row{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.card{
+	background-color: snow;
+	margin-top: 20px;
+}
+
+.card h2,p{
+	padding: 20px;
+}
+
+.pic{
+	width: 350px;
+	height: 250px;
+	margin-left: 190px;
+}
+
+.rightcolumn{
+	float: left;
+	width: 30%;
+	margin-left: 1000px;
+	background-color: snow;
+}
+
+.pic2{
+	width: 250px;
+	height: 150px;
+}
